@@ -1,8 +1,8 @@
-function gravarRegistro(){
-    var form = document.getElementById('formulario');
+function addProduto() {
+    var form = document.getElementById('addProduto');
     var dados = new FormData(form);
 
-    fetch("PastaPHP/registro.php", {
+    fetch("../PastaPHP/addProduto.php", {
         method: "POST",
         body: dados
     });
