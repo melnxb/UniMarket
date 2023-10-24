@@ -39,3 +39,5 @@ window.onload = async function(){
         document.getElementById("cards").innerHTML += conteudo;
     }
 }
+
+

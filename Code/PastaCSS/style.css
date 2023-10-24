@@ -59,3 +59,22 @@
   height: 100%;
   background-color: #000000;
 }
+
+/* Estilos para o botão */
+#mostrarOpcoes {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#mostrarOpcoes:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para as opções de pagamento */
+.opcao-pagamento {
+  margin-right: 10px;
+}
